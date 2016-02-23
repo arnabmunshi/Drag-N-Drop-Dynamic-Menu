@@ -1,0 +1,116 @@
+* {
+  outline: none;
+  padding: 0px;
+  margin: 0 auto;
+}
+body {
+  background-color: #2B2D42;
+  font-family: 'Droid Sans', sans-serif;
+}
+.browser-header {
+  margin-top: 157px;
+  background-color: #E2E4E3;
+  width: 800px;
+  height: 50px;
+  border-radius: 4px 4px 0 0;
+}
+.browser-header .right-ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  float: left;
+}
+.browser-header .right-ul li {
+  float: left;
+  line-height: 50px;
+  margin-left: 15px;
+}
+.browser-header .right-ul li .icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+}
+.browser-header .left-ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  float: right;
+}
+.browser-header .left-ul li {
+  float: left;
+  line-height: 50px;
+  margin-right: 15px;
+}
+.browser-header .left-ul li:nth-child(1) {
+  color: #34a853;
+}
+.browser-header .left-ul li:nth-child(2) {
+  color: #fbbc05;
+}
+.browser-header .left-ul li:nth-child(3) {
+  color: #EA4335;
+}
+.browser-container {
+  background-color: white;
+  border-radius: 0 0 4px 4px;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.drag-it {
+  height: 50px;
+  width: 500px;
+  background-color: #8D99AE;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+.editable {
+  background-color: #B7BFCC;
+}
+.fa-bars:hover {
+  cursor: move;
+}
+.menu {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+}
+.menu li {
+  text-align: center;
+  flex: 1;
+}
+.menu li:nth-child(2) {
+  flex: 10;
+}
+.fa-pencil-square-o:hover, .fa-floppy-o:hover, .fa-trash-o:hover {
+  cursor: pointer;
+}
+.add-menu {
+  width: 500px;
+  background-color: #3D84FF;
+  color: white;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  line-height: 50px;
+  border: 1px solid #3D84FF;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.add-menu:hover {
+  background-color: #5C98FF;
+  cursor: pointer;
+}
+.add-menu:active{
+    background-color: #1F71FF;
+}
